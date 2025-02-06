@@ -1,12 +1,17 @@
 @font-face {
   font-family: "Arimo";
   src: url("fonts/Arimo/Arimo-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
 }
 @font-face {
   font-family: "MazzardH";
   src: url("fonts/Mazzard/MazzardH-Bold.otf") format("opentype");
-  font-weight: bold;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "MazzardH";
+  src: url("fonts/Mazzard/MazzardH-Black.otf") format("opentype");
+  font-weight: 900;
 }
 @font-face {
   font-family: "Rhythmic";

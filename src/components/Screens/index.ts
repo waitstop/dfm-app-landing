@@ -1,3 +1,3 @@
 import FirstScreen from "./FirstScreen";
-
-export { FirstScreen };
+import SecondScreen from "./SecondScreen";
+export { FirstScreen, SecondScreen };
