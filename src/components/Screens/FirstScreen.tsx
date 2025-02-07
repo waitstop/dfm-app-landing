@@ -7,7 +7,7 @@ import {
 
 export default function FirstScreen() {
   return (
-    <div className="relative flex size-full flex-col items-center justify-center bg-blue-500 bg-[url('img/bg/bg_0_mobile.svg')] bg-cover bg-left-bottom md:bg-[url('img/bg/bg_0_desktop.svg')]">
+    <div className="relative flex size-full flex-col items-center justify-center bg-blue-500 bg-[url('../img/bg/bg_0_mobile.svg')] bg-cover bg-left-bottom md:bg-[url('../img/bg/bg_0_desktop.svg')]">
       <img
         className="pointer-events-none absolute top-0 left-0 w-[40vw] md:hidden"
         src="img/decorations/head_mobile.png"

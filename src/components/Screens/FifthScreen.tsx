@@ -7,7 +7,7 @@ import {
 
 export default function FifthScreen() {
   return (
-    <div className="flex h-full items-center justify-center bg-[#007FFF] bg-[url('img/bg/bg_4_mobile.svg')] bg-contain bg-left-bottom bg-no-repeat">
+    <div className="flex h-full items-center justify-center bg-[#007FFF] bg-[url('../img/bg/bg_4_mobile.svg')] bg-contain bg-left-bottom bg-no-repeat">
       <div>
         <h2 className="font-mazzardH pt-6 text-center text-xl font-bold text-white uppercase">
           Слушай, загружай, делись

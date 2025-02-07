@@ -1,6 +1,6 @@
 export default function FourthScreen() {
   return (
-    <div className="relative h-full bg-[url('img/bg/bg_3_mobile.svg')] bg-cover bg-left-top md:bg-[url('img/bg/bg_3_desktop.svg')]">
+    <div className="relative h-full bg-[url('../img/bg/bg_3_mobile.svg')] bg-cover bg-left-top md:bg-[url('../img/bg/bg_3_desktop.svg')]">
       <img
         className="1relative z-10 mx-auto w-[70vw] max-w-[500px] pt-6"
         src="img/logo_black.png"

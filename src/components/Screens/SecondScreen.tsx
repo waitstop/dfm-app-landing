@@ -12,7 +12,7 @@ export default function SecondScreen({ progress }: Props) {
     [0, (phonesLength - 1) * 100],
   );
   return (
-    <div className="h-full bg-[#FF00FF] bg-cover bg-left-top md:bg-[url('img/bg/bg_1_desktop.svg')]">
+    <div className="h-full bg-[#FF00FF] bg-cover bg-left-top md:bg-[url('../img/bg/bg_1_desktop.svg')]">
       <h2 className="font-mazzardH pt-6 text-center text-xl font-black text-white uppercase">
         Главный танцевальный
         <br /> чарт страны
