@@ -7,7 +7,7 @@ import {
 
 export default function FifthScreen() {
   return (
-    <div className="flex h-full items-center justify-center bg-[#007FFF] bg-[url('/img/bg/bg_4_mobile.svg')] bg-contain bg-left-bottom bg-no-repeat">
+    <div className="flex h-full items-center justify-center bg-[#007FFF] bg-[url('img/bg/bg_4_mobile.svg')] bg-contain bg-left-bottom bg-no-repeat">
       <div>
         <h2 className="font-mazzardH pt-6 text-center text-xl font-bold text-white uppercase">
           Слушай, загружай, делись
@@ -17,7 +17,7 @@ export default function FifthScreen() {
             Скачай приложение по ссылке
           </p>
           <img
-            src="/img/qr.svg"
+            src="img/qr.svg"
             alt="QR"
             className="relative z-50 mx-auto w-[50vw] bg-white md:hidden"
           />
@@ -29,12 +29,12 @@ export default function FifthScreen() {
           </div>
           <img
             className="absolute top-0 left-0 md:-top-1/2 md:-left-32"
-            src="/img/decorations/bolts_left.png"
+            src="img/decorations/bolts_left.png"
             alt="Bolts Left"
           />
           <img
             className="absolute top-0 right-0 md:-top-1/2 md:-right-32"
-            src="/img/decorations/bolts_right.png"
+            src="img/decorations/bolts_right.png"
             alt="Bolts Right"
           />
         </div>

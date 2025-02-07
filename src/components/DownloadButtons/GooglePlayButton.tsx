@@ -3,7 +3,7 @@ export default function GooglePlayButton() {
     <a href="#">
       <img
         className="w-full"
-        src="/img/buttons/google_play.svg"
+        src="img/buttons/google_play.svg"
         alt="Google Play"
       />
     </a>

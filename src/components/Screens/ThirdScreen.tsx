@@ -1,14 +1,14 @@
 export default function ThirdScreen() {
   return (
-    <div className="relative h-full bg-[url('/img/bg/bg_2_mobile.svg')] bg-cover bg-left-bottom md:bg-[url('/img/bg/bg_2_desktop.svg')]">
+    <div className="relative h-full bg-[url('img/bg/bg_2_mobile.svg')] bg-cover bg-left-bottom md:bg-[url('img/bg/bg_2_desktop.svg')]">
       <img
         className="absolute top-16 -left-46 md:hidden"
-        src="/img/decorations/human_mobile.svg"
+        src="img/decorations/human_mobile.svg"
         alt="Human"
       />
       <img
         className="hidden h-full -translate-y-32 md:block"
-        src="/img/decorations/human_desktop.svg"
+        src="img/decorations/human_desktop.svg"
         alt="Human"
       />
       <div className="absolute bottom-0 left-1/2 w-full -translate-x-1/2">
