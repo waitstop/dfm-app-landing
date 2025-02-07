@@ -3,12 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "waitstop.github.io/dfm-app-landing/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist",
+    "build-gh-pages": "tsc && vite build --base=/dfm-app-landing/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -30,7 +28,6 @@
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
-    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
