@@ -6,20 +6,24 @@ type Props = {
 };
 export default function SecondScreen({ progress }: Props) {
   const phonesLength = 5;
-  const xPos = useTransform(progress, [0.5, 1], [0, (phonesLength - 1) * 100]);
+  const xPos = useTransform(
+    progress,
+    [0.25, 0.5],
+    [0, (phonesLength - 1) * 100],
+  );
   return (
-    <div className="h-full bg-[#FF00FF]">
+    <div className="h-full bg-[#FF00FF] bg-cover bg-left-top md:bg-[url('/img/bg/bg_1_desktop.svg')]">
       <h2 className="font-mazzardH pt-6 text-center text-xl font-black text-white uppercase">
         Главный танцевальный
         <br /> чарт страны
       </h2>
 
-      <p className="font-rhythmic mt-6 -rotate-5 text-center text-[40vw] leading-[28vw] text-yellow-300">
-        Dance <br />
+      <p className="font-rhythmic mt-32 -rotate-5 text-center text-[40vw] leading-[28vw] text-yellow-300 md:mb-64 md:text-[10vw] md:leading-1">
+        Dance <br className="md:hidden" />
         radio
       </p>
 
-      <p className="font-arimo mt-12 mb-6 text-center text-5xl font-bold text-white uppercase">
+      <p className="font-arimo mt-32 mb-6 text-center text-5xl font-bold text-white uppercase md:hidden">
         Новый DFM
       </p>
 

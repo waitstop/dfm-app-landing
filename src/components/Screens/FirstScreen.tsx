@@ -7,7 +7,7 @@ import {
 
 export default function FirstScreen() {
   return (
-    <div className="relative flex size-full flex-col items-center justify-center bg-blue-500 bg-[url('/img/bg/bg_0_mobile.svg')] bg-cover md:bg-[url('/img/bg/bg_0_desktop.svg')]">
+    <div className="relative flex size-full flex-col items-center justify-center bg-blue-500 bg-[url('/img/bg/bg_0_mobile.svg')] bg-cover bg-left-bottom md:bg-[url('/img/bg/bg_0_desktop.svg')]">
       <img
         className="pointer-events-none absolute top-0 left-0 w-[40vw] md:hidden"
         src="/img/decorations/head_mobile.png"
@@ -31,12 +31,12 @@ export default function FirstScreen() {
       <div className="z-50 justify-between space-y-8 md:flex md:pb-64">
         <img
           className="mx-auto h-fit md:mx-0 md:w-2/5"
-          src="/img/logo.svg"
+          src="/img/logo_white.png"
           alt="Logo DFM"
         />
         <div className="space-y-8 md:w-2/5">
           <img
-            className="mx-auto w-44 bg-white"
+            className="mx-auto w-44 bg-white md:hidden"
             src="/img/qr.svg"
             alt="QR-code"
           />
