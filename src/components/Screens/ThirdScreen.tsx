@@ -11,6 +11,16 @@ export default function ThirdScreen() {
         src="img/decorations/human_desktop.svg"
         alt="Human"
       />
+      <img
+        className="absolute top-6 right-6 w-64 md:hidden"
+        src="img/decorations/woman_head_mobile.png"
+        alt="Head"
+      />
+      <img
+        className="absolute right-6 bottom-16 hidden w-128 md:block"
+        src="img/decorations/woman_head_desktop.png"
+        alt="Head"
+      />
       <div className="absolute bottom-0 left-1/2 w-full -translate-x-1/2">
         <h2 className="font-mazzardH mb-6 text-center text-3xl font-bold text-neutral-800 uppercase md:text-4xl">
           Лучшие ремиксы

@@ -30,7 +30,7 @@ export default function FirstScreen() {
       />
       <div className="z-50 justify-between space-y-8 md:flex md:pb-64">
         <img
-          className="mx-auto h-fit md:mx-0 md:w-2/5"
+          className="mx-auto h-fit max-w-[250px] md:mx-0 md:w-2/5"
           src="img/logo_white.png"
           alt="Logo DFM"
         />
@@ -46,7 +46,7 @@ export default function FirstScreen() {
             <AppGallery />
             <RuStoreButton />
           </div>
-          <p className="font-mazzardH absolute bottom-3 left-1/2 -translate-x-1/2 text-center font-bold text-nowrap text-white uppercase md:relative md:bottom-0 md:left-0 md:translate-x-0">
+          <p className="font-mazzardH text-center font-bold text-nowrap text-white uppercase">
             Скачай приложение по ссылке
           </p>
         </div>
