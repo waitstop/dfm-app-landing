@@ -1,13 +1,20 @@
 export default function FourthScreen() {
   return (
     <div className="relative h-full bg-[url('../img/bg/bg_3_mobile.svg')] bg-cover bg-left-top md:bg-[url('../img/bg/bg_3_desktop.svg')]">
+      <p className="font-mazzardH pt-6 text-center text-3xl font-bold text-[#282929] uppercase md:text-4xl">
+        Лучшие ремиксы
+      </p>
+      <p className="font-rhythmic relative z-50 scale-[2.25] -rotate-5 py-12 text-center text-5xl text-nowrap text-white">
+        Треки <br className="md:hidden" />
+        <span className="text-4xl md:text-5xl">и диджеи</span>
+      </p>
       <img
-        className="1relative z-10 mx-auto w-[70vw] max-w-[500px] pt-6"
+        className="relative z-10 mx-auto h-auto w-[70vw] max-w-[270px] pt-6 md:max-w-[500px]"
         src="img/logo_black.png"
         alt="Logo"
       />
       <img
-        className="absolute top-[25vh] right-6 w-[40vw] max-w-[250px]"
+        className="absolute top-[50vh] right-6 w-[40vw] max-w-[250px]"
         src="img/decorations/record.png"
         alt="Record"
       />
