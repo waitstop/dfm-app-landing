@@ -30,7 +30,7 @@ export default function FirstScreen() {
       />
       <div className="z-50 justify-between space-y-8 md:flex md:pb-64">
         <img
-          className="mx-auto h-fit max-w-[250px] md:mx-0 md:w-2/5"
+          className="mx-auto h-auto max-w-[250px] md:mx-0 md:w-2/5"
           src="img/logo_white.png"
           alt="Logo DFM"
         />

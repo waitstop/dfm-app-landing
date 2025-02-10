@@ -21,7 +21,7 @@ export default function FifthScreen() {
             alt="QR"
             className="relative z-50 mx-auto w-[50vw] bg-white md:hidden"
           />
-          <div className="relative z-50 grid max-w-[300px] grid-cols-2 gap-3 px-6">
+          <div className="relative z-50 grid max-w-[300px] grid-cols-2 gap-3 px-6 md:max-w-[500px]">
             <GooglePlayButton />
             <AppStoreButton />
             <AppGallery />
