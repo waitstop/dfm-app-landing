@@ -28,12 +28,14 @@ export default function FirstScreen() {
         src="img/decorations/stars.svg"
         alt="Stars"
       />
-      <div className="z-50 justify-between space-y-8 md:flex md:pb-64">
-        <img
-          className="mx-auto h-auto max-w-[250px] md:mx-0 md:w-2/5"
-          src="img/logo_white.png"
-          alt="Logo DFM"
-        />
+      <div className="z-50 w-full justify-evenly space-y-8 md:flex md:pb-64">
+        <div className="mx-auto flex max-w-[250px] items-center md:mx-0 md:w-2/5">
+          <img
+            className="h-auto w-full"
+            src="img/logo_white.png"
+            alt="Logo DFM"
+          />
+        </div>
         <div className="space-y-8 md:w-2/5">
           <img
             className="mx-auto w-44 bg-white md:hidden"

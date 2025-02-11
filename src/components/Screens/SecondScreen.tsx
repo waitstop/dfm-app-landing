@@ -21,7 +21,6 @@ export default function SecondScreen() {
     "Дизайн на любой вкус",
     "Дизайн на любой вкус",
   ];
-  const [progress, setProgress] = useState<number>(0);
   const [activeSlide, setActiveSlide] = useState<number>(0);
   const [phoneActiveSlide, setPhoneActiveSlide] = useState<number>(0);
   const phoneSwiper = useRef<null | SwiperRef>(null);
@@ -39,7 +38,6 @@ export default function SecondScreen() {
         modules={[Mousewheel]}
         mousewheel
         nested
-        onProgress={(_, v) => setProgress(v)}
         onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
       >
         {[...Array(texts.length).keys()].map((i) => (
@@ -49,7 +47,7 @@ export default function SecondScreen() {
       <div className="pointer-events-none absolute top-0 left-0 size-full">
         <AnimatePresence mode="wait">
           <motion.h2
-            className="font-arimo block h-44 px-4 pt-6 text-center text-3xl font-bold text-white uppercase"
+            className="font-arimo block h-44 px-4 pt-6 text-center text-3xl font-bold text-white uppercase md:text-6xl"
             key={texts[activeSlide]}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -76,6 +74,9 @@ export default function SecondScreen() {
             },
             1200: {
               slidesPerView: 3.75,
+            },
+            1750: {
+              slidesPerView: 4.25,
             },
           }}
           centeredSlides
