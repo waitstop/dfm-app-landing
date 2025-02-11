@@ -84,7 +84,12 @@ export default function SecondScreen() {
           onSlideChange={(swiper) => setPhoneActiveSlide(swiper.activeIndex)}
         >
           {[...Array(11).keys()].map((i) => (
-            <SwiperSlide>
+            <SwiperSlide
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <img
                 key={`phone_${i}`}
                 src={`img/phones/phone_${i}.png`}
