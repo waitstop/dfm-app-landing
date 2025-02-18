@@ -38,8 +38,8 @@ export default function FirstScreen() {
         </div>
         <div className="space-y-8 md:w-2/5">
           <img
-            className="mx-auto w-44 bg-white md:hidden"
-            src="img/qr.svg"
+            className="pixelated mx-auto hidden w-44 bg-white md:block"
+            src="img/qr.png"
             alt="QR-code"
           />
           <div className="grid grid-cols-2 gap-4 px-8">

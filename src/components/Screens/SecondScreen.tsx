@@ -1,10 +1,4 @@
-import {
-  AnimatePresence,
-  motion,
-  useMotionTemplate,
-  useMotionValue,
-  useTransform,
-} from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { Mousewheel } from "swiper/modules";
 import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";

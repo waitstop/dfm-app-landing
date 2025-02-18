@@ -17,9 +17,9 @@ export default function FifthScreen() {
             Скачай приложение по ссылке
           </p>
           <img
-            src="img/qr.svg"
+            src="img/qr.png"
             alt="QR"
-            className="relative z-50 mx-auto w-[50vw] bg-white md:hidden"
+            className="pixelated relative z-50 mx-auto hidden w-64 bg-white md:block"
           />
           <div className="relative z-50 grid max-w-[300px] grid-cols-2 gap-3 px-6 md:max-w-[500px]">
             <GooglePlayButton />
