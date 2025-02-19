@@ -38,7 +38,7 @@ export default function FirstScreen() {
         </div>
         <div className="space-y-8 md:w-2/5">
           <img
-            className="pixelated mx-auto hidden w-44 bg-white md:block"
+            className="pixelated mx-auto hidden w-2/3 bg-white md:block"
             src="img/qr.png"
             alt="QR-code"
           />

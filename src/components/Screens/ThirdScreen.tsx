@@ -21,6 +21,9 @@ export default function ThirdScreen() {
         src="img/decorations/woman_head_desktop.png"
         alt="Head"
       />
+      <h3 className="font-mazzardH absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 px-4 text-center text-4xl text-white uppercase">
+        Только лучшая музыка
+      </h3>
     </div>
   );
 }

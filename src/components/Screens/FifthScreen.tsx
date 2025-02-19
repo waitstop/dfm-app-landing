@@ -19,7 +19,7 @@ export default function FifthScreen() {
           <img
             src="img/qr.png"
             alt="QR"
-            className="pixelated relative z-50 mx-auto hidden w-64 bg-white md:block"
+            className="pixelated relative z-50 mx-auto hidden w-2/3 bg-white md:block"
           />
           <div className="relative z-50 grid max-w-[300px] grid-cols-2 gap-3 px-6 md:max-w-[500px]">
             <GooglePlayButton />
