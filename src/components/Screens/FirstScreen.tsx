@@ -28,7 +28,7 @@ export default function FirstScreen() {
         src="img/decorations/stars.svg"
         alt="Stars"
       />
-      <div className="z-50 w-full justify-evenly space-y-8 md:flex md:pb-64">
+      <div className="z-50 h-full w-full items-center justify-evenly space-y-8 md:flex">
         <div className="mx-auto flex max-w-[250px] items-center md:mx-0 md:w-2/5">
           <img
             className="h-auto w-full"
@@ -36,7 +36,7 @@ export default function FirstScreen() {
             alt="Logo DFM"
           />
         </div>
-        <div className="space-y-8 md:w-2/5">
+        <div className="space-y-8 md:w-2/6">
           <img
             className="pixelated mx-auto hidden w-2/3 bg-white md:block"
             src="img/qr.png"
