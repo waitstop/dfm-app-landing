@@ -28,7 +28,7 @@ export default function FirstScreen() {
         src="img/decorations/stars.svg"
         alt="Stars"
       />
-      <div className="z-50 h-full w-full items-center justify-evenly space-y-8 md:flex">
+      <div className="z-50 flex h-full w-full flex-col items-center justify-center space-y-8 md:flex-row md:justify-evenly">
         <div className="mx-auto flex max-w-[250px] items-center md:mx-0 md:w-2/5">
           <img
             className="h-auto w-full"
